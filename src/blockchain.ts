@@ -1,4 +1,4 @@
-import { hash, isHashProofed } from './helpers'
+import { hash, isHashProofed } from './utils';
 
 type BlockHeader = {
     nonce: number;
